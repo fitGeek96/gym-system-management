@@ -1,0 +1,277 @@
+/* BODY */
+body {}
+
+/* navbar */
+
+
+/*.bg-img {
+	background-image: url("p.jpg");
+	background-size: cover;
+}*/
+
+.container {
+	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-right: 0;
+}
+
+.navbar-brand {
+	font-size: 3.7rem;
+	transform: rotate(-30deg);
+
+}
+
+.nav-item {
+	margin-left: 70px;
+	font-size: 1.3rem;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: silver;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+
+/* title */
+
+.row {
+	text-align: right;
+	margin-right: 0;
+}
+
+.row h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3rem;
+	line-height: 1.9;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.fa-apple {
+	margin-right: 5px;
+	margin-bottom: 1px;
+}
+
+.btn-apple {
+	padding-left: 11px;
+
+}
+
+/* Features */
+#features {
+	padding: 7% 15%;
+}
+
+.features-box {
+	text-align: center;
+}
+
+.features-im {
+	color: rgb(212, 38, 8);
+	margin-bottom: 20px;
+}
+
+.features-im:hover {
+	color: red;
+}
+
+#features h2 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+}
+
+#features p {
+	font-family: 'Cabin', sans-serif;
+	padding: 7% 15%;
+	color: lightslategrey;
+}
+
+/* pricing */
+#pricing {
+	padding: 7% 15%;
+}
+
+#pricing h2,
+p {
+	text-align: center;
+}
+
+#pricing h2 {
+	font-size: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+	word-spacing: 5px;
+	color: #6c4138;
+}
+
+.card-text,
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	color: lightslategrey;
+	letter-spacing: 2px;
+}
+
+.card-header,
+.card-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.3rem;
+	letter-spacing: 2.7px;
+}
+
+.card {
+	margin-top: 10px;
+}
+
+.coach {
+	display: inline-block;
+}
+
+.coach-name {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+}
+
+/* testimonial */
+
+#entraineur {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 3rem;
+	letter-spacing: 3px;
+}
+
+
+#testimonials {
+	padding: 7% 0;
+	text-align: center;
+	font-family: 'Secular One', sans-serif;
+	color: #fff;
+	background-color: #29282d;
+}
+
+#carouselExampleControls {
+	padding: 0 100px;
+}
+
+.carousel-indicators {
+	top: 190px;
+}
+
+.testimonials-img {
+	border-radius: 100%;
+	width: 11%;
+	height: 100px;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 3% 7%;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+}
+
+
+/* CTA */
+
+
+/* footer */
+footer {
+	text-align: center;
+}
+
+.contact {
+	padding: 7% 15%;
+}
+
+.ctaa {
+	margin-right: 20px;
+}
+
+.ctaa:hover {
+	color: red;
+	text-decoration: none;
+}
+
+a {
+	color: crimson;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.ctaa p {
+	font-family: 'Secular One', sans-serif;
+}
+
+/* responsive  */
+@media (max-width: 1028px) {
+
+	.testimonial-text {
+		font-size: 1.5rem;
+	}
+
+	.testimonials-img {
+		width: 22%;
+	}
+
+	em {
+		font-size: 0.5rem;
+	}
+
+	.bg-img {
+		background-repeat: no-repeat;
+	}
+
+
+	.container .row {
+		text-align: center;
+	}
+
+	.row h1 {
+		font-size: 1.5rem;
+	}
+
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media (max-width: 666px) {
+
+	.testimonials-img {
+		width: 33%;
+	}
+
+
+}
+
+
+.parallax {
+	/* The image used */
+	background-image: url("p.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
