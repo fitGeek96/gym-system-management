@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Form-v3 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/lora-font.css">
+	<link rel="stylesheet" type="text/css" href="css/raleway-font.css">
+	<link rel="stylesheet" type="text/css"
+		href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- datepicker -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<!-- Main Style Css -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Jquery -->
+
+</head>
+
+<body class="form-v3">
+	<div class="page-content">
+		<div class="form-v3-content">
+			<form class="form-detail" action="#" method="post" id="myform" name="registration">
+				<h2>Reservation d'une seance</h2>
+
+				<div class="form-group">
+					<div class="form-row form-row-1">
+						<label for="full-name">Nom complet</label>
+						<input type="text" name="name" id="full-name" class="input-text" required>
+					</div>
+					<div class="form-row form-row-1">
+						<label for="your-email">Votre email</label>
+						<input type="email" name="email" id="your-email" class="input-text" required>
+					</div>
+				</div>
+				<div class="form-group form-group-1">
+					<div class="form-row form-row-2">
+						<label for="person">Personne</label>
+						<input type="number" id="person" class="input-text" name="person" value="1" title="Qty" size="4"
+							pattern="[0-9]*" inputmode="numeric">
+					</div>
+					<div class="form-row form-row-3">
+						<label for="date">Date</label>
+						<input type="date" name="date" class="date" id="date" placeholder="8/9/2018" required />
+					</div>
+					<div class="form-row form-row-4">
+						<label for="ticket">Type de billet</label>
+						<select name="position" id="ticket" class="input-text">
+							<option value="vip">Yoga</option>
+							<option value="luxury">Fitness</option>
+							<option value="basic">MMA</option>
+							<option value="normal">Piscine</option>
+						</select>
+						<span class="select-btn">
+							<i class="zmdi zmdi-chevron-down"></i>
+						</span>
+					</div>
+				</div>
+				<div class="special">
+					<span>300DA</span>
+					<p>/PERSONNE</p>
+				</div>
+
+				<div class="form-row-last">
+					<input type="submit" name="register" class="register" value="RESERVER ">
+				</div>
+			</form>
+			<div class="form-right">
+				<div class="form-images-1">
+					<img src="images/form-v3-1.jpg" alt="form-v3-1">
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+	<!-- Jquery -->
+
+
+	</script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>

@@ -2,7 +2,10 @@
 body {}
 
 /* navbar */
+.fixed-top {
 
+	margin: 0 10%;
+}
 
 /*.bg-img {
 	background-image: url("p.jpg");
@@ -51,6 +54,9 @@ body {}
 	letter-spacing: 5px;
 	color: #fff;
 	text-transform: uppercase;
+	position: relative;
+	margin: 5% auto 2% auto;
+
 }
 
 .btn {
@@ -264,7 +270,7 @@ a:hover {
 
 .parallax {
 	/* The image used */
-	background-image: url("p.jpg");
+	background-image: url("images/p.jpg");
 
 	/* Set a specific height */
 	min-height: 500px;
@@ -275,3 +281,6 @@ a:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+
+/* Preloader animation */
