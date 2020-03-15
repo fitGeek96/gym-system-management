@@ -129,9 +129,9 @@ p {
 #pricing h2 {
 	font-size: 2rem;
 	font-family: 'Josefin Sans', sans-serif;
-	word-spacing: 5px;
+	word-spacing: 10px;
 	color: rgb(212, 38, 8);
-
+	font-weight: bold;
 }
 
 .card-text,
@@ -368,6 +368,8 @@ a:hover {
 	text-align: center;
 	font-size: 23px;
 	padding: 17px 0 17px 0;
+	font-family: 'Vollkorn', serif;
+	color: rgb(247, 237, 109);
 }
 
 .promos a {
@@ -420,6 +422,113 @@ button:hover {
 }
 
 .scale .price {
-	color: #64AAA4;
+	color: rgb(127, 235, 226);
 	font-weight: bold;
+	font-family: 'Vollkorn', serif;
+}
+
+
+
+
+/* EMPLOU DU TEMPS */
+
+.emploi_tmp {
+	background-color: #2b130f;
+	padding: 7% 15%;
+}
+
+.emploi_tmp .row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.emploi_tmp h2 {
+	text-align: center;
+	color: #ecb673;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.3rem;
+}
+
+.schedule-table {
+	overflow-x: auto;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.schedule-table table {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #1d1c1c;
+
+}
+
+
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: #0F1012;
+
+}
+
+.schedule-table table thead tr {
+	background-color: #292b2e;
+
+}
+
+.schedule-table table thead tr th {
+	color: #f9f9f9;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.workout-time {
+	background-color: #212121;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.gym {
+	background-color: #292b2e;
+	color: rgba(255, 201, 101, 0.863);
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.body {
+	background-color: #44484e;
+	color: rgba(219, 243, 7, 0.884);
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.yoga,
+.running {
+	background-color: #87898d;
+	color: rgb(57, 245, 229);
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.cardio {
+	background-color: #55ddff;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.box,
+.crossfit {
+	background-color: crimson;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.videe {
+	background-color: #fff;
 }

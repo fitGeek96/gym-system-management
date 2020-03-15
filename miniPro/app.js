@@ -47,3 +47,7 @@ jQuery(document).ready(function ($) {
         }
     })
 });
+
+
+
+/* EMPLOI DU TEMP */
