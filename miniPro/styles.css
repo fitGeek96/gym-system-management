@@ -3,7 +3,7 @@
 h3 {
 	font-size: 1.5rem;
 	text-align: center;
-	color: silver;
+	color: rgb(255, 254, 254);
 	margin: 2rem auto;
 }
 
@@ -39,6 +39,7 @@ h3 {
 
 .navbar-dark .navbar-nav .nav-link {
 	color: silver;
+	font-size: 2rem;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -71,6 +72,10 @@ h3 {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.btn:hover {
+	background-color: crimson;
+}
+
 .fa-apple {
 	margin-right: 5px;
 	margin-bottom: 1px;
@@ -91,7 +96,7 @@ h3 {
 }
 
 .features-im {
-	color: rgb(212, 38, 8);
+	color: rgb(206, 44, 12);
 	margin-bottom: 20px;
 }
 
@@ -125,7 +130,8 @@ p {
 	font-size: 2rem;
 	font-family: 'Josefin Sans', sans-serif;
 	word-spacing: 5px;
-	color: #6c4138;
+	color: rgb(212, 38, 8);
+
 }
 
 .card-text,
@@ -176,7 +182,8 @@ p {
 /* testimonial */
 
 #entraineur {
-	font-family: 'Rajdhani', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	color: darkorange;
 	font-size: 3rem;
 	letter-spacing: 3px;
 }
@@ -185,7 +192,7 @@ p {
 #testimonials {
 	padding: 7% 0;
 	text-align: center;
-	font-family: 'Secular One', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #fff;
 	background-color: #29282d;
 }
@@ -302,6 +309,19 @@ a:hover {
 	background-size: cover;
 }
 
+.parallax_1 {
+	/* The image used */
+	background-image: url("images/gym.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /* Pricing table  */
 
