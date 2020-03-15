@@ -495,7 +495,7 @@ thead {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.gym {
+/* .gym {
 	background-color: #292b2e;
 	color: rgba(255, 201, 101, 0.863);
 	font-family: 'Josefin Sans', sans-serif;
@@ -531,4 +531,17 @@ thead {
 
 .videe {
 	background-color: #fff;
+} */
+
+.box,
+.crossfit,
+.cardio,
+.yoga,
+.running,
+.body,
+.gym {
+	background-color: #292b2e;
+	color: #D34E24;
+	font-family: 'Josefin Sans', sans-serif;
+
 }
