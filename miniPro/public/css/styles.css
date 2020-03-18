@@ -1,0 +1,511 @@
+/* BODY */
+.h3,
+h3 {
+	font-size: 1.5rem;
+	text-align: center;
+	color: rgb(255, 254, 254);
+	margin: 2rem auto;
+}
+
+/* navbar */
+.fixed-top {
+
+	margin: 0 10%;
+}
+
+/*.bg-img {
+	background-image: url("p.jpg");
+	background-size: cover;
+}*/
+
+.container {
+	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-right: 0;
+}
+
+.navbar-brand {
+	font-size: 3.7rem;
+	transform: rotate(-30deg);
+
+}
+
+.nav-item {
+	margin-left: 70px;
+	font-size: 1.3rem;
+	font-family: 'Rajdhani', sans-serif;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+	color: silver;
+	font-size: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: red;
+}
+
+
+/* title */
+
+.row {
+	text-align: right;
+	margin-right: 0;
+}
+
+.row h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 3rem;
+	line-height: 1.9;
+	letter-spacing: 5px;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	margin: 5% auto 2% auto;
+
+}
+
+.btn {
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn:hover {
+	background-color: crimson;
+}
+
+.fa-apple {
+	margin-right: 5px;
+	margin-bottom: 1px;
+}
+
+.btn-apple {
+	padding-left: 11px;
+
+}
+
+/* Features */
+#features {
+	padding: 7% 15%;
+}
+
+.features-box {
+	text-align: center;
+}
+
+.features-im {
+	color: rgb(206, 44, 12);
+	margin-bottom: 20px;
+}
+
+.features-im:hover {
+	color: red;
+}
+
+#features h2 {
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+}
+
+#features p {
+	font-family: 'Cabin', sans-serif;
+	padding: 7% 15%;
+	color: lightslategrey;
+}
+
+/* pricing */
+#pricing {
+	padding: 7% 15%;
+}
+
+#pricing h2,
+p {
+	text-align: center;
+}
+
+#pricing h2 {
+	font-size: 2rem;
+	font-family: 'Josefin Sans', sans-serif;
+	word-spacing: 10px;
+	color: rgb(212, 38, 8);
+	font-weight: bold;
+}
+
+.card-text,
+p {
+	font-family: 'Josefin Sans', sans-serif;
+	color: lightslategrey;
+	letter-spacing: 2px;
+}
+
+.card-header,
+.card-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.3rem;
+	letter-spacing: 2.7px;
+}
+
+.card {
+	margin-top: 10px;
+	-webkit-box-shadow: 1px 5px 7px 2px #000000;
+	box-shadow: 1px 5px 7px 2px #000000;
+}
+
+.coach {
+	display: inline-block;
+	width: 14rem;
+}
+
+.sport-name {
+	color: black;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+	text-align: center;
+}
+
+
+/* Programmes */
+
+.programmes {
+
+	width: 5rem;
+
+}
+
+.navbar-nav .emp {
+	text-align: center;
+}
+
+/* testimonial */
+
+#entraineur {
+	font-family: 'Josefin Sans', sans-serif;
+	color: darkorange;
+	font-size: 3rem;
+	letter-spacing: 3px;
+}
+
+
+#testimonials {
+	padding: 7% 0;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #fff;
+	background-color: #29282d;
+}
+
+#carouselExampleControls {
+	padding: 0 100px;
+}
+
+.carousel-indicators {
+	top: 190px;
+}
+
+.testimonials-img {
+	border-radius: 100%;
+	width: 11%;
+	height: 100px;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 3% 7%;
+}
+
+.testimonial-text {
+	font-size: 3rem;
+}
+
+
+/* CTA */
+
+
+/* footer */
+footer {
+	text-align: center;
+}
+
+.contact {
+	padding: 7% 15%;
+}
+
+.ctaa {
+	margin-right: 20px;
+}
+
+
+
+a {
+	color: crimson;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.ctaa p {
+	font-family: 'Secular One', sans-serif;
+}
+
+/* responsive  */
+@media (max-width: 1028px) {
+
+	.testimonial-text {
+		font-size: 1.5rem;
+	}
+
+	.testimonials-img {
+		width: 22%;
+	}
+
+	em {
+		font-size: 0.5rem;
+	}
+
+	.bg-img {
+		background-repeat: no-repeat;
+	}
+
+
+	.container .row {
+		text-align: center;
+	}
+
+	.row h1 {
+		font-size: 1.5rem;
+	}
+
+	.navbar-brand {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media (max-width: 666px) {
+
+	.testimonials-img {
+		width: 33%;
+	}
+
+
+}
+
+
+.parallax {
+	/* The image used */
+	background-image: url("/images/p.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallax_1 {
+	/* The image used */
+	background-image: url("/images/gym.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* Pricing table  */
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+
+.promos {
+	width: 800px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.promo {
+	width: 250px;
+	background: #0F1012;
+	color: #f9f9f9;
+	float: left;
+}
+
+.deal {
+	padding: 10px 0 0 0;
+}
+
+.deal span {
+	display: block;
+	text-align: center;
+}
+
+.deal span:first-of-type {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.deal span:last-of-type {
+	font-size: 13px;
+}
+
+.promo .price {
+	display: block;
+	width: 250px;
+	background: #292b2e;
+	margin: 15px 0 10px 0;
+	text-align: center;
+	font-size: 23px;
+	padding: 17px 0 17px 0;
+	font-family: 'Vollkorn', serif;
+	color: rgb(247, 237, 109);
+}
+
+.promos a {
+	color: #fff;
+}
+
+ul {
+	display: block;
+	margin: 20px 0 10px 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	color: #999999;
+}
+
+li {
+	display: block;
+	margin: 10px 0 0 0;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.9rem;
+	padding: 0 1.1rem;
+}
+
+button {
+	border: none;
+	border-radius: 40px;
+	background: #292b2e;
+	color: #f9f9f9;
+	padding: 10px 37px;
+	margin: 10px 50px 20px 40px;
+}
+
+button:hover {
+	background: #64AAA4;
+
+}
+
+.scale {
+	transform: scale(1.2);
+	-webkit-box-shadow: 1px 5px 7px 2px #000000;
+	box-shadow: 1px 5px 7px 2px #000000;
+}
+
+.scale button {
+	background: #64AAA4;
+}
+
+.scale button:hover {
+	background: rgb(136, 236, 228);
+}
+
+.scale .price {
+	color: rgb(127, 235, 226);
+	font-weight: bold;
+	font-family: 'Vollkorn', serif;
+}
+
+
+
+
+/* EMPLOU DU TEMPS */
+
+.emploi_tmp {
+	background-color: #2b130f;
+	padding: 7% 15%;
+}
+
+.emploi_tmp .row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.emploi_tmp h2 {
+	text-align: center;
+	color: #ecb673;
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 0.3rem;
+}
+
+.schedule-table {
+	overflow-x: auto;
+	-webkit-box-shadow: 5px 5px 15px 5px #000000;
+	box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.schedule-table table {
+	width: 100%;
+	text-align: center;
+	border: 1px solid #1d1c1c;
+
+}
+
+
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: #0F1012;
+
+}
+
+.schedule-table table thead tr {
+	background-color: #292b2e;
+
+}
+
+.schedule-table table thead tr th {
+	color: #f9f9f9;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 15px 0;
+}
+
+.workout-time {
+	background-color: #212121;
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.box,
+.crossfit,
+.cardio,
+.yoga,
+.running,
+.body,
+.gym {
+	background-color: #292b2e;
+	color: #D34E24;
+	font-family: 'Josefin Sans', sans-serif;
+
+}

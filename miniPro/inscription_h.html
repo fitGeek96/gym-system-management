@@ -10,135 +10,197 @@
     <meta name="keywords" content="Colorlib Templates">
 
     <!-- Title Page-->
-    <title>Inscription Homme</title>
+    <title>Inscription</title>
+
+
+    <!-- GOOGLS FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap" rel="stylesheet">
+
 
     <!-- Icons font CSS-->
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+
     <!-- Font special for pages-->
     <link
-        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        href="https:\\fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Vendor CSS-->
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
 
     <!-- Main CSS-->
-    <link href="css/main.css" rel="stylesheet" media="all">
+    <link href="css\main.css" rel="stylesheet" media="all">
 </head>
 
 <body>
-    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
-        <div class="wrapper wrapper--w680">
-            <div class="card card-4">
-                <div class="card-body">
-                    <h2 class="title">Formulaire d'inscription</h2>
-                    <form method="POST">
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Nom</label>
-                                    <input class="input--style-4" type="text" name="first_name" required>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Prénom</label>
-                                    <input class="input--style-4" type="text" name="last_name" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Date de naissance</label>
-                                    <div class="input-group-icon">
-                                        <input class="input--style-4 js-datepicker" type="text" name="birthday"
-                                            required>
-                                        <i class="zmdi zmdi-calendar-note input-icon js-btn-calendar"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Sexe</label>
-                                    <div class="p-t-10">
-                                        <label class="radio-container m-r-45">Homme
-                                            <input type="radio" checked="checked" name="gender">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                        <label class="radio-container">Femme
-                                            <input type="radio" name="gender">
-                                            <span class="checkmark"></span>
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-space">
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Email</label>
-                                    <input class="input--style-4" type="email" name="email" required>
-                                </div>
-                            </div>
-                            <div class="col-2">
-                                <div class="input-group">
-                                    <label class="label">Numéro de téléphone</label>
-                                    <input class="input--style-4" type="number" name="phone" required>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <label class="label">Type de sport</label>
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select id="sport" name="subject" required>
-                                    <option disabled="disabled" selected="selected" value="">Choisissez une option
-                                    </option>
-                                    <option>Fitness</option>
-                                    <option>MMA</option>
-                                    <option>Nataion</option>
-                                    <option>Yoga</option>
-                                    <option>Mixte</option>
 
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="input-group">
-                            <label class="label">Type de convention</label>
-                            <div class="rs-select2 js-select-simple select--no-search">
-                                <select id="convention" name="subject" required>
-                                    <option disabled="disabled" selected="selected" value="">Choisissez une option
-                                    </option>
-                                    <option value="">CASORO</option>
-                                    <option>Millitaire</option>
-                                    <option>Police</option>
-                                </select>
-                                <div class="select-dropdown"></div>
-                            </div>
-                        </div>
-                        <div class="p-t-15">
-                            <button class="btn btn--radius-2 btn--blue" type="submit">S'inscrire</button>
-                        </div>
-                    </form>
+
+
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
+    <div id="mc_embed_signup" class="parallaxx">
+        <form action="https://netlify.us19.list-manage.com/subscribe/post?u=b5505bd61703a46300b47acae&amp;id=a14d23370f"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+            target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll" style=" padding: 10px;">
+                <h2>Formulaire d'inscription</h2>
+                <div class="indicates-required"><span class="asterisk">*</span> indique le champ requis</div>
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL">Adresse email<span class="asterisk">*</span>
+                    </label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                 </div>
+                <div class="mc-field-group">
+                    <label for="mce-FNAME">Nom <span class="asterisk">*</>
+                    </label>
+                    <input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-LNAME">Prénom <span class="asterisk">*</span>
+                    </label>
+                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+                </div>
+                <div class="mc-field-group size1of2">
+                    <label for="mce-PHONE" style=" margin-top: 6px;">Numéro de téléphone </label>
+                    <input type="text" name="PHONE" class="" value="" id="mce-PHONE">
+                </div>
+                <div class="mc-field-group size1of2">
+                    <label for="mce-BIRTHDAY-month">Date de naissance <span class="asterisk">*</span>
+                    </label>
+                    <div class="datefield">
+
+                        <span class="subfield dayfield"><input class="birthday required" type="text" pattern="[0-9]*"
+                                value="" placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]"
+                                id="mce-BIRTHDAY-day"></span> /
+                        <span class="subfield monthfield"><input class="birthday required" type="text" pattern="[0-9]*"
+                                value="" placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]"
+                                id="mce-BIRTHDAY-month"></span> /
+                        <span class="subfield  year"><input class="birthday required" type="text" pattern="[0-9]*"
+                                value="" placeholder="YY" size="2" maxlength="4" name="BIRTHDAY[year]"
+                                id="mce-BIRTHDAY-year"></span>
+                    </div>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-SUBJECT1">Type de sport <span class="asterisk">*</span>
+                    </label>
+                    <select name="SUBJECT1" class="required" id="mce-SUBJECT1">
+                        <option value=""></option>
+                        <option value="MMA">MMA</option>
+                        <option value="Mixte">Mixte</option>
+                        <option value="Fitness">Fitness</option>
+                        <option value="Yoga">Yoga</option>
+                        <option value="Natation">Natation</option>
+
+                    </select>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-SUBJECT2">Type de convention <span class="asterisk">*</span>
+                    </label>
+                    <select name="SUBJECT2" class="required" id="mce-SUBJECT2">
+                        <option value=""></option>
+                        <option value="CASORO">CASORO</option>
+                        <option value="Militaire">Militaire</option>
+                        <option value="Police">Police</option>
+
+                    </select>
+                </div>
+                <div class="mc-field-group">
+                    <label for="mce-PRIX">Paiement <span class="asterisk">*</span>
+                    </label>
+                    <input type="text" value="" name="PRIX" class="required" id="mce-PRIX"
+                        placeholder="Numéro de la carte xxxx - xxxx - xxxx - xxxx">
+                </div>
+                <div class="mc-field-group input-group">
+                    <strong>Sexe <span class="asterisk">*</span>
+                    </strong>
+                    <ul>
+                        <li><input type="radio" value="Homme" name="GENDER" id="mce-GENDER-0" checked><label
+                                for="mce-GENDER-0">Homme</label></li>
+                        <li><input type="radio" value="Femme" name="GENDER" id="mce-GENDER-1"><label
+                                for="mce-GENDER-1">Femme</label></li>
+                    </ul>
+                </div>
+                <div class="mc-field-group input-group">
+
+                    <ul>
+                        <li><input type="checkbox" value="1" name="group[4682][1]" id="mce-group[4682]-4682-0"><label
+                                for="mce-group[4682]-4682-0">En inscrivant, vous acceptez le <a
+                                    href="reglementaire.html">REGLEMENT INTERIEUR DE LA SALLE</a> </label></li>
+                    </ul>
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-error-response" style="display:none"></div>
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_b5505bd61703a46300b47acae_a14d23370f" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Inscrire" name="subscribe" id="mc-embedded-subscribe"
+                        class="button"></div>
             </div>
-        </div>
+        </form>
     </div>
 
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+            fnames[4] = 'PHONE';
+            ftypes[4] = 'phone';
+            fnames[6] = 'BIRTHDAY';
+            ftypes[6] = 'birthday';
+            fnames[3] = 'SUBJECT1';
+            ftypes[3] = 'dropdown';
+            fnames[5] = 'SUBJECT2';
+            ftypes[5] = 'dropdown';
+            fnames[7] = 'GENDER';
+            ftypes[7] = 'radio';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+
+        $mcj.extend($mcj.validator.messages, {
+            required: "Ce champ est requis!",
+            remote: "Veuillez corriger ce champ.",
+            email: "S'il vous plaît, mettez une adresse email valide.",
+            url: "Please enter a valid URL.",
+            date: "S'il vous plaît veuillez entrer une date valide.",
+            dateISO: "Please enter a valid date (ISO).",
+            number: "S'il vous plait, entrez un nombre valide.",
+            digits: "Merci de n'entrer que des chiffres.",
+            creditcard: "Veuillez saisir un numéro de carte de crédit valide.",
+            equalTo: "Please enter the same value again.",
+            accept: "Please enter a value with a valid extension.",
+            maxlength: $mcj.validator.format("Veuillez ne pas saisir plus de {0} caractères."),
+            minlength: $mcj.validator.format("Veuillez saisir au moins {0} caractères."),
+            rangelength: $mcj.validator.format("Please enter a value between {0} and {1} characters long."),
+            range: $mcj.validator.format("Please enter a value between {0} and {1}."),
+            max: $mcj.validator.format("Please enter a value less than or equal to {0}."),
+            min: $mcj.validator.format("Please enter a value greater than or equal to {0}."),
+            mc_birthday: "Veuillez saisir une date de naissance valide.",
+            mc_date: "Veuillez saisir une date de naissance valide.",
+            mc_phone: "S'il vous plaît entrer un numéro de téléphone valide.",
+        });
+    </script>
+    <!--End mc_embed_signup-->
+
     <!-- Jquery JS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https:\\ajax.googleapis.com\ajax\libs\jquery\3.3.1\jquery.min.js"></script>
+    <script src="\vendor\jquery\jquery.min.js"></script>
     <!-- Vendor JS-->
-    <script src="vendor/select2/select2.min.js"></script>
-    <script src="vendor/datepicker/moment.min.js"></script>
-    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <script src="\vendor\select2\select2.min.js"></script>
+    <script src="\vendor\datepicker\moment.min.js"></script>
+    <script src="\vendor\datepicker\daterangepicker.js"></script>
 
     <!-- Main JS-->
-    <script src="js/global.js"></script>
-    <script src="app.js"></script>
+
 
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 

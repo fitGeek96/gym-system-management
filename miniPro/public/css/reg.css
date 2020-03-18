@@ -1,0 +1,24 @@
+h2,
+strong,
+p {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    color: crimson;
+    text-align: center;
+}
+
+strong {
+    color: red;
+}
+
+p {
+    display: inline;
+    color: rgb(131, 131, 131);
+    font-size: 14px;
+}
+
+body {
+    background-color: black;
+}
